@@ -3,8 +3,7 @@ comment
 
 comment is a simple tool that adds or removes comments. It reads from stdin and outputs to stdout.
 
-## Installation
-
+## Installation
 
 ```bash
 go get github.com/sewh/comment
