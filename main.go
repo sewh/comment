@@ -35,6 +35,7 @@ func main() {
 		commentRegex = cR
 		if err != nil {
 			fmt.Println("Bad regex: " + comment)
+			os.Exit(1)
 		}
 	} else {
 		commentRegex = nil
